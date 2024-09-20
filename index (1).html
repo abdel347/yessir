@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Media Solutions</title>
+    <style>
+        body {
+            background-color: #e8e8e8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        #about, #process, #faq {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .step {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .faq {
+            margin: 10px 0;
+            cursor: pointer;
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .faq-answer {
+            display: none;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://images.app.goo.gl/KcrEanuwmdVnJXLe8" alt="Modern Kitchen" style="width:100%; height:auto;">
+    <h1>Lead Generation for Kitchen Renovation & HVAC Services</h1>
+    <h2>We generate quote-ready home improvement leads for you — no heavy lifting required.</h2>
+    <button class="button" onclick="document.getElementById('contact-form').style.display='block'">Get More Leads</button>
+</header>
+
+<div id="contact-form" style="display:none;">
+    <h2>Contact Form</h2>
+    <form>
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="number">Phone Number:</label><br>
+        <input type="tel" id="number" name="number"><br>
+        <label for="website">Website Name (optional):</label><br>
+        <input type="text" id="website" name="website"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div id="about">
+    <h2>Who We Are</h2>
+    <img src="https://we.tl/t-BgqkshkPzP" alt="Wave Media Solutions Logo" style="width:200px; height:auto;">
+    <p>At Wave Media Solutions, we specialize in lead generation and social media management, helping home improvement companies thrive. Our strategic approach delivers high-quality, quote-ready leads through targeted advertising on popular social media platforms. By handling your lead generation, we allow you to focus on your work, ensuring your business growth is both smooth and efficient with clients who are genuinely interested.</p>
+</div>
+
+<div id="process">
+    <h2>Our Process</h2>
+
+    <div class="step">
+        <img src="https://via.placeholder.com/100?text=1" alt="Step 1" />
+        <h3>Gather Content</h3>
+        <p>Our first step is to collect visuals that showcase your craftsmanship. These visuals become the cornerstone of our strategy, aimed at drawing in more potential clients to your business.</p>
+    </div>
+
+    <div class="step">
+        <img src="https://via.placeholder.com/100?text=2" alt="Step 2" />
+        <h3>Launch Ads</h3>
+        <p>Next, we create and launch ads using the content we've gathered. These ads are strategically designed and placed on key social media platforms to capture the attention of potential clients effectively.</p>
+    </div>
+
+    <div class="step">
+        <img src="https://via.placeholder.com/100?text=3" alt="Step 3" />
+        <h3>Generate Leads</h3>
+        <p>Finally, we gather information from individuals genuinely interested in your services. We prioritize quote-ready leads while filtering out those who aren't serious.</p>
+    </div>
+</div>
+
+<div id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq" onclick="this.nextElementSibling.style.display='block';">
+        <strong>How do you generate leads for home improvement companies?</strong>
+        <span>➡️</span>
+    </div>
+    <div class="faq-answer">
+        <p>We utilize targeted advertising on popular social media platforms to attract individuals genuinely interested in your services, delivering high-quality, quote-ready leads.</p>
+    </div>
+
+    <div class="faq" onclick="this.nextElementSibling.style.display='block';">
+        <strong>What makes your lead generation strategy effective?</strong>
+        <span>➡️</span>
+    </div>
+    <div class="faq-answer">
+        <p>Our strategic approach focuses on filtering out non-serious inquiries and prioritizing genuine potential clients, ensuring the leads we provide are highly qualified and ready for quotes.</p>
+    </div>
+
+    <div class="faq" onclick="this.nextElementSibling.style.display='block';">
+        <strong>Do I still have to pay if I don't get qualified leads?</strong>
+        <span>➡️</span>
+    </div>
+    <div class="faq-answer">
+        <p>No, you don’t! If we don’t deliver at least 10 qualified leads within 30 days, you won’t have to pay for our services. We stand by our results and ensure you only pay when we meet our lead generation targets.</p>
+    </div>
+</div>
+
+<footer>
+    <h2>Get More Leads Today!</h2>
+    <p>Are you ready to receive high-quality, quote-ready leads for your home improvement company? Let us help you generate leads that bring growth and success to your business.</p>
+    <button class="button" onclick="document.getElementById('contact-form').style.display='block'">Get More Leads</button>
+</footer>
+
+</body>
+</html>
